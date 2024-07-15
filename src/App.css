@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn-shadow {
+  border-bottom-color: rgb(44, 150, 215);
+  border-left-color: rgb(48, 141, 199);
+  border-right-color: rgb(139, 127, 153);
+  border-top-color: rgb(143, 84, 215);
+  box-shadow: 2px 2px 10px rgb(0, 156, 255);
+}
+.gradient {
+  background: rgb(3, 4, 42);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 32, 103, 1) 23%,
+    rgba(38, 8, 82, 0.18760347682119205) 89%
+  );
+}
+.bg-dark-blue {
+  background: rgb(3, 4, 42);
+}
+.button::before,
+.button::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: calc(50% - 5px);
+  border: 1px solid #7D8082;
+  transition: all .15s ease;
+}
+
+.button::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.button::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+
+
+.button:active::before,
+.button:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.button:active::before {
+  top: 3px;
+}
+
+.button:active::after {
+  bottom: 3px;
+}
+
+.button_lg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: rgb(64, 32, 103);
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.button:hover .text ,.button:hover .arrow{
+    transform: scale(110%);
+    color: rgb(64, 32, 103);
+    font-weight: 700;
+}
+.button_lg .text{
+    transition: transform 0.5s;
+}
+.button_lg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #0f1923;
+  transition: all .2s ease;
+}
+
+.button_sl {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: #ffffff;
+  transform: skew(-15deg);
+  transition: all .2s ease;
+}
+
+.button_text {
+  position: relative;
+}
+
+.button:hover {
+  color: #0f1923;
+}
+
+.button:hover .button_sl {
+  width: calc(100% + 15px);
+}
+
+.button:hover .button_lg::after {
+  background-color: #fff;
+}
+.bg-glass{
+  background: #7f25ac4b;
+}
+.btn-bg-gradient{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(112,27,193,1) 0%, rgba(255,255,255,0.27494747899159666) 100%);
+transition: transform 0.5s;
+}
+.projectGrid-gredient {
+background: rgb(27,82,186);
+background: linear-gradient(100deg, rgba(27,82,186,0.868270188235165) 0%, rgba(50,26,111,1) 67%, rgba(50,26,111,1) 95%);
+}
+
+
