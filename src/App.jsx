@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from "./components/Layout";
 import LandingPage from "./pages/LandingPage";
-import './App.css'
 import OurWork from './pages/OurWorks';
 import Clients from './pages/Clients';
 import Location from './pages/Location';
+import Contact from './pages/Contact';
+import './App.css'
 const App = () => {
   return (
     <Layout>
@@ -12,6 +13,7 @@ const App = () => {
       <OurWork />
       <Clients />
       <Location />
+      <Contact />
     </Layout>
   )
 }

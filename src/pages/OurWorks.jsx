@@ -138,7 +138,7 @@ const OurWork = () => (
         Our Work
       </h2>
       <div className="text-center mb-8 flex flex-col justify-center items-center ">
-        <div className="projectGrid-gredient py-10 flex flex-col  items-center justify-start min-h-[60vh] rounded-tr-full rounded-tl-full h-[100vh] w-[160vw] absolute top-14  ">
+        <div className="projectGrid-gredient py-10 flex flex-col  items-center justify-start min-h-[60vh] rounded-tr-full rounded-tl-full h-[100vh] w-[160vw] absolute top-14">
           <div className="wraper  flex flex-col items-center justify-center ">
             <h1 className="text-4xl font-bold mt-2">
               Featured Website Design Projects
