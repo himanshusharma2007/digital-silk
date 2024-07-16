@@ -21,19 +21,22 @@ const LandingPage = () => {
         <main className=" flex-1 flex flex-col  justify-center  p-6 min-h-[90vh]">
           <div className="lg:flex lg:justify-start  w-[90vw] lg:items-center lg:text-left lg:space-x-6  mt-10">
             <div className="lg:w-1/2 lg:mb-0 px-16  md:min-w-[70vw] mb-4 flex justify-center  flex-col min-h-[70vh] ">
-              <h2 className="text-lg font-semibold mb-2">
+            <div className="wraper flex flex-col space-y-3 mb-8">
+
+              <h2 className="text-lg font-semibold">
                 TOP WEB DESIGN AGENCY
               </h2>
-              <h1 className="text-3xl md:text-[70px] leading-[70px]  font-bold mb-4 h-[30vh] ">
+              <h1 className="text-3xl md:text-[70px] leading-[70px]  font-bold  h-fit ">
                 WE GROW BRANDS ONLINE
               </h1>
-              <p className="text-lg mb-6">
+              <p className="text-lg font-medium">
                 Custom Websites, Branding & Digital Marketing Solutions
               </p>
-              <button className="button relative btn-shadow flex justify-center items-center  border-4 font-semibold text-white hover:bg-white hover:text-purple-600 max-w-sm">
-                <div className="button_lg flex justify-center items-center space-x-2 hover:space-x-3 text-white">
+            </div>
+              <button className="button relative btn-shadow flex justify-center items-center  border-4 font-semibold text-white hover:bg-white hover:text-purple-600 max-w-sm w-80 ">
+                <div className="button_lg flex justify-center items-center space-x-2 hover:space-x-3 text-white py-3">
                   <div className="button_sl"></div>
-                  <div className="text z-10  ">
+                  <div className="text z-10  text-lg">
                     {" "}
                     SPEAK WITH OUR EXPERTS
                   </div>{" "}
